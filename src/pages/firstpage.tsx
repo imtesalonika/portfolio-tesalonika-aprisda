@@ -15,20 +15,20 @@ export default function Firstpage (){
                     <span className={"text-xl"}>I have an interest in IT Quality Assurance</span>
 
                     <div className={"flex gap-3"}>
-                        <Button className={"rounded-full bg-sky-100 hover:bg-sky-100"}>
-                            <Facebook className={"text-black"} />
+                        <Button className={"rounded-full bg-sky-100 hover:bg-sky-100"} asChild={true}>
+                            <a href={"https://web.facebook.com/tesalonikaaprisdasitopu.sitopu"}>  <Facebook className={"text-black"} /> </a>
+                        </Button>
+
+                        <Button className={"rounded-full bg-sky-100 hover:bg-sky-100"} asChild={true}>
+                            <a href={"https://www.instagram.com/i.m.tesalonika/profilecard/?igsh=MWhxY2I4ZWsxeTg3cA=="}> <Instagram className={"text-black"} /> </a>
+                        </Button>
+
+                        <Button className={"rounded-full bg-sky-100 hover:bg-sky-100"}asChild={true}>
+                            <a href={"https://github.com/imtesalonika"}> <Github className={"text-black"} /></a>
                         </Button>
 
                         <Button className={"rounded-full bg-sky-100 hover:bg-sky-100"}>
-                            <Instagram className={"text-black"} />
-                        </Button>
-
-                        <Button className={"rounded-full bg-sky-100 hover:bg-sky-100"}>
-                            <Github className={"text-black"} />
-                        </Button>
-
-                        <Button className={"rounded-full bg-sky-100 hover:bg-sky-100"}>
-                            <Linkedin className={"text-black"} />
+                            <a href={"https://www.linkedin.com/in/tesalonika-aprisda-sitopu/"}> <Linkedin className={"text-black"} /></a>
                         </Button>
 
 
